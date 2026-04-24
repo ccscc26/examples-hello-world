@@ -8,7 +8,7 @@
 // 5. 类型安全与常量提取
 // =========================================================
 
-const USER_ID = 0032e49d-185b-4ff2-9e55-83e7a3500cb5 ;
+const USER_ID = 0032e49d-185b-4ff2-9e55-83e7a3500cb5;
 const VALID_PATH = /api/v2/status;
 const TIMEOUT_MS = parseInt(Deno.env.get("CONNECTION_TIMEOUT") || "30000");
 const MAX_CONN = parseInt(Deno.env.get("MAX_CONNECTIONS") || "100");
